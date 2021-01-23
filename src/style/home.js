@@ -1,0 +1,95 @@
+import {Dimensions,StyleSheet} from 'react-native';
+import * as Colors from '../utility/colors';
+import * as Typography from '../utility/typography'
+
+const {height,width} = Dimensions.get('window');
+
+export default StyleSheet.create({
+    container:{
+        backgroundColor:'rgba(0,0,0,0.8)', 
+        flex:1
+    },
+    header:{
+        height:height*0.06,
+        backgroundColor:'black',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    headerTxt:{
+        fontSize:Typography.FONT_SIZE_30,
+        color:'white',
+        fontWeight:'bold',
+        color:'#50c878'
+    },
+    cardContainer:{
+        paddingVertical:height*0.02,
+        paddingHorizontal:width*0.02,
+        backgroundColor:Colors.backgroundColor,
+        marginBottom:height*0.05
+    },
+    iconStyle1:{
+        alignSelf:'flex-end',
+        color:'white',
+       
+    },
+    iconStyle:{
+        alignSelf:'flex-end',
+        color:'white',
+        paddingRight:width*0.02
+    },
+    mIconContainer:{
+        height:25,
+        width:30,
+        justifyContent:'center',
+        alignItems:'center',  
+        backgroundColor:'green',
+        borderRadius:5,
+        marginRight:width*0.02
+    },
+    MiconStyle:{
+        color:'white', 
+    },
+    profileDetails:{
+        flexDirection:'row'
+    },
+    dpStyle:{
+        height:height*0.06,
+        width:height*0.06,
+        backgroundColor:'white',
+        borderRadius:height*0.10/2
+    },
+    txtStyle:{
+        fontSize:Typography.FONT_SIZE_14,
+        color:'white',
+        fontWeight:'bold'
+    },
+    txtStyle1:{
+        fontSize:Typography.FONT_SIZE_14,
+        color:'#e1e1dd',
+        overflow:'hidden'
+    },
+    footer:{
+        position:'relative',
+        bottom:0,
+        left:0,
+        right:0,
+        justifyContent:'space-between',
+        flexDirection:'row',
+        marginTop:height*0.03,
+        paddingHorizontal:width*0.02
+    },
+    listFooterStyle:{
+        height:height*0.05,
+    },
+    nImgStyle:{
+        height:height*0.50,
+        width:width
+    },
+    newsImgStyle:{
+        height:height*0.10,
+        width:height*0.10,
+        marginRight:width*0.05,
+        borderTopRightRadius:30,
+        borderBottomLeftRadius:30
+    }
+})

@@ -1,0 +1,13 @@
+export const secondaryColor = '#AA3C3B';
+export const brandColor = '#e14f00';
+export const white = '#fff';
+export const backgroundColor = '#464647';
+export const black = '#000'
+export const gray = '#ccc';
+export const darkGray = '#989898';
+export const lightGray = 'rgba(0,0,0,0.1)';
+export const underlay = 'rgba(0,0,0,0.1)';
+export const red = 'red';
+export const transparent = 'transparent';
+export const brandUnderLay = 'rgba(	225, 79, 0,0.8)';
+export const fbBlueColor = '#4054B2'
